@@ -37,10 +37,10 @@ namespace lim
         }
 
         public static void user_input
-            (int[] gameField)
+            (int[] gameField)          
         {
             bool validInput = false;
-            int lineNumber = 0;
+            int lineNumber = 0  ;
 
             while (validInput != true)
             {
@@ -51,7 +51,7 @@ namespace lim
                     Console.WriteLine("Invalid input!!!.. Please enter a valid value!");
                     continue;
                 }
-                else validInput = true;
+                validInput = true;
 
             }
             while (validInput != true)
