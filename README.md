@@ -1,2 +1,1 @@
-# EvgenyV
-C3 Private lessons
+C# Private lessons
